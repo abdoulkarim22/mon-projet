@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>service</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="page.css">
+</head>
+<body>
+    <div class="container-fluid">
+      <div class="row">
+        <!-- SideBar -->
+        <div class="col-lg-2 col-md-1 col-2 m-0 pe-0" style="height: 100vh;background-color:#ffffff ;">
+            <div class="h-50 pe-0 ">
+                <img src="enval_transparent.jpg" alt="" class="w-100 d-none d-lg-block">
+                <nav class="pt-3">
+                    <ul class="list-unstyled" style="color: #63666a;">
+                        <li class="mb-3"><a href="Dashboard.html" class="text-decoration-none text-secondary"><i class="bi bi-grid  me-2 fs-4"></i><span class="d-none d-lg-inline"> Dashboard</span></a></li>
+                        <li class="mb-3"><a href="Facture.html" class="text-decoration-none text-secondary"><i class="bi bi-person-circle  me-2 fs-4"></i><span class="d-none d-lg-inline"> Facture</span></a></li>
+                        <li class="mb-3"><a href="commande.html" class="text-decoration-none  text-secondary"><i class="bi bi-car-front-fill  me-2 fs-4"></i><span class="d-none d-lg-inline">Commande</span></a></li>
+                        <li class="mb-3"><a href="Suivi.html" class="text-decoration-none text-secondary"><i class="bi bi-bag me-2 fs-4"></i><span class="d-none d-lg-inline">Suivi</span></a></li>
+                        <li class="mb-3 active"><a href="Service.html" class="text-decoration-none text-secondary"><i class="bi bi-chat-right-text me-2 fs-4"></i><span class="d-none d-lg-inline"> Service Client</span></a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="h-50 pe-0 d-flex flex-column justify-content-end">
+                <nav class="mb-3">
+                    <ul class="list-unstyled">
+                        <li class="mb-3"><a href="#" class="text-decoration-none text-secondary"><i class="bi bi-gear me-2 fs-4"></i> <span class="d-none d-lg-inline">Paramètres Compte</span> </a></li>
+                        <li class="mb-3"><a href="index.html" class="text-decoration-none text-secondary"><i class="bi bi-box-arrow-left me-2 fs-4"></i> <span class="d-none d-lg-inline">Déconnexion</span> </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- Contenue -->
+        <div class="col-lg-10 col-md-11 col-10  " style="background-color:#d1e8ef ;">
+            <!-- NavBar -->
+        <div class="container-fluid  d-flex justify-content-end align-items-center" style="margin-left: 11.9px;background-color: #ffffff;">
+            <div class="d-flex me-4">
+                <i class="bi bi-bell" style="font-size: 1.5rem;"></i>
+                <div class="bg-danger rounded-circle border-2 border border-white " style="height: 10px; width: 10px;margin-left: -8px; margin-top: 6px;"></div>
+            </div>
+            <div>
+                <img src="b.png" alt="" class=" rounded-circle" style="height: 45px;">
+            </div>
+        </div>
+        <!-- Corps -->
+        <div class=" mt-3" style="background-color: #ffffff;border-radius: 18px;">
+            <div class="row">
+                <label class="text-secondary mt-4 fs-5 mb-3" for="" style="margin-left: 7%;width: 150px;">Sujet</label>
+                <input class=" rounded-3 mb-3 p-1" style="background-color: #f1f1f1 ;width: 85%;margin-left: 8%;border: none;font-family: Arial, Helvetica, sans-serif;" type="text" name="" id=""> 
+                <label for="floatingTextarea2" class="text-secondary fs-5 mb-3 w-50" style="margin-left: 7%;" >Messges</label>
+                <textarea class="form-control " placeholder="" id="floatingTextarea2" style="height: 450px;margin-left: 8%;width: 85%;background-color: #f1f1f1;border: none;"></textarea>
+                <button class="mt-5 rounded-3 border-bottom border-start border-top border-end p-2 text-white  mb-5" style="width: 85%;margin-left: 8%;background-color: #4a95a6;">Envoyer</button>
+            </div>
+        </div>
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>

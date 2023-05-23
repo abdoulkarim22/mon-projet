@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+:root {
+  --dot-diameter: 150px;
+  --circle-border-width: 3px;
+  --default-color: #4b94a6;
+  font-family: 'Lilita One', cursive;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  text-align: center;
+  color: white;
+  text-transform: uppercase;
+  gap: 24px;
+  width: 450px;
+}
+
+h1 {
+  font-size: 28px;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+.circle-container {
+  width: var(--dot-diameter);
+  height: var(--dot-diameter);
+  transform: rotate(-225deg);
+  fill: none;
+  stroke: white;
+  stroke-dasharray: 75 100;
+  stroke-linecap: round;
+}
+
+.circle-container__background {
+  fill: none;
+  stroke: #f3f5f9 ;
+  stroke-width: var(--circle-border-width);
+  stroke-dasharray: 75 100;
+  stroke-linecap: round;
+}
+
+.circle-container__progress {
+  fill: none;
+  stroke-linecap: round;
+  stroke: url(#gradient);
+  stroke-dasharray: 30 100;
+  stroke-linecap: round;
+  stroke-width: var(--circle-border-width);
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+
+.stop1 {
+  stop-color: #4a95a6;
+}
+
+.stop2 {
+  stop-color: #4a95a6;
+  /* positives */
+}
+.circle-container__background1 {
+    fill: none;
+    stroke: hsl(192, 30%, 54%);
+    stroke-width: var(--circle-border-width);
+    stroke-dasharray: 75 100;
+    stroke-linecap: round;
+   
+  }
+
+  .circle-container__progress1 {
+    fill: none;
+    stroke-linecap: round;
+    stroke: #ffffff;
+    stroke-dasharray: 85 100;
+    stroke-linecap: round;
+    stroke-width: var(--circle-border-width);
+    transition: stroke-dashoffset 1s ease-in-out;
+  }
+  /* li:hover{
+    background-color: #e7f8fc;
+  } */
+  .linear{
+    background:linear-gradient(to right, green,orange,red);
+    /* width: 700px;
+    height: 200px; */
+    height: 160px;
+    margin-left: -1%;
+  }
+  .active{
+    background:  #e7f8fc;
+    border-radius: 8px;
+    width: 200px;
+  }
+  @media screen and (max-width:320px) { 
+    .active{
+      width: 25px;
+    }
+  }
+  @media screen and (max-width:375px) { 
+    .active{
+      width: 25px;
+    }
+  }
+  @media screen and (max-width:425px) { 
+    .active{
+      width: 25px;
+    }
+  }
+  @media screen and (max-width:768px) { 
+    .active{
+      width: 25px;
+    }
+  }
+ 
+ 
+ 
+ 
+ 
+ 
